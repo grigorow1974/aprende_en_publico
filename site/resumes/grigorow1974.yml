@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Grigorow
+    
+    # Define yourself in 4-5 words
+    motto: Data Drives My Endless Curiosity
+    
+    # Focus
+    focus: Learning something new every day
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+    
+      Operations and Management Control professional with a proven track record of 
+      optimizing processes, reducing costs, and improving customer experience. 
+      Expertise in leading multicultural teams, implementing operational strategies, 
+      automating processes, management control and budgeting, and improving the work environment
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encr.pw/iIg7l
+
+    # Contact Information
+    email: grigorow@gmail.com #optional
+    phone: 569 5637 9287 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/sergio-grigorow-la-scalea-1a284133/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: grigorow1974
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Travelling
+
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: Bachelor in Business Administration
+      university: Universidad Tecnica Federico Santa Maria
+      # optional
+      university_logo: https://usm.cl/wp-content/uploads/2021/10/escudo-usm-1024x1024.jpg
+      time: 2020 - 2023
+      details: |
+        The Business Engineering degree program trains professionals with 
+        the mission to lead in public or private organizations, directing, 
+        planning, and managing their human resources; and administering their material, 
+        financial, commercial, and operational resources under the approaches of 
+        continuous improvement, sustainable development, and social responsibility 
+        in today's knowledge society
+
+    - degree: Associate Degree in Computer Science
+      university: Instituo Universitario de Tecnologia Industrial Rodolfo Loero Arismendi
+      # optional
+      university_logo: https://iutirlaoficial.com/wp-content/uploads/2024/03/logoiutirla.png
+      time: 2000 - 2003
+      details: |
+        Technically trained professional capable of performing effectively 
+        and efficiently in the specific areas of analysis, 
+        design, and implementation of management information systems, 
+        as well as in the administration of IT projects, 
+        with the aim of streamlining and maximizing 
+        response times and making decisions in any company
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operations Analyst
+      time: 2021 - Present
+      company: Chubb, Santiago de Chile
+      # optional
+      company_logo: https://www.seguros.com/wp-content/uploads/chubb_v4-1-2048x830.png
+      details: |
+          - Issue provisional monthly collections and adjustments.
+          - Reconcile monthly collections and invoices for mass customers.
+          - Generate reports related to mass customer collections
+          - Create a control panel for the mass collection area.
+
+    - role: Operations and Management Control Analyst
+      time: 2016 - 2019
+      company: Ripley, Santiago de Chile
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Ripley_Chile.png
+      details: |
+          - Design, analyze, control, measure, and improve processes used in the Recruitment and Selection department
+          - Implement a new personnel selection model for stores nationwide.
+          - Plan monthly recruitment activities for 42 stores nationwide
+          - Coordinate projects related to staff hiring for new store openings nationwide
+
+    - role: Operations Manager / Head of Operations / Operations Analyst
+      time: 2001 - 2015
+      company: Achilles, Caracas, Bogota, Santiago de Chile
+      # optional
+      company_logo: https://logovtor.com/wp-content/uploads/2020/02/achilles-logo-vector.png
+      details: |
+        Responsible for operations in customer service, contact center, 
+        labor certification teams, document management, and field auditors for Chile, 
+        Argentina, Brazil, Peru, Colombia, and Mexico, with over 250 people under management.
+
+skills:
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: SQL
+        level: 75%
+
+      - name: Power BI
+        level: 75%
+
+      - name: Excel
+        level: 100%
+
+      - name: Six Sigma
+        level: 100%
